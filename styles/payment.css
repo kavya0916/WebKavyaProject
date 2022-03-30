@@ -4,9 +4,37 @@ html, body{
     margin: 0;
     background-color: #e0e0e0;
 }
+
 #logo{
     height: 60px;
     width: 60px;
+    vertical-align: middle;
+
+}
+#login1{
+    text-decoration: none;
+    float: right;
+    color: black;
+    margin: 2%;
+    margin-top: 1.5%;
+
+}
+header{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+
+}
+footer{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
 }
 #blu_hotel{
     height: 500px;
@@ -16,9 +44,7 @@ html, body{
     height: 20px;
     width: 22px;
 }
-header, footer{
-    background-color: rosybrown;
-}
+
 #blu_imgp{
     background-color: rgb(132,136,139);
     height: 20%;
@@ -33,4 +59,30 @@ header, footer{
     border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
+}
+#contact{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin: 1%;
+}
+
+#copy_right{
+    font-size: 10px;
+    bottom: 0px;
+    text-align: center;
+    margin: 1%;
+}
+#fit_img{
+    float: right;
+   margin-right: 1.5%;
+}
+#pay a{
+    text-decoration: none;
+    color: black;
+  
+
+}
+#space{
+    margin: 2% 0% 2% 0%;
 }

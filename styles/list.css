@@ -7,6 +7,33 @@ html, body{
 #logo{
     height: 60px;
     width: 60px;
+    vertical-align: middle;
+
+}
+#login1{
+    text-decoration: none;
+    float: right;
+    color: black;
+    margin: 2%;
+    margin-top: 1.5%;
+
+}
+header{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+
+}
+footer{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
 }
 .hotels_img{
     height: 200px;
@@ -16,12 +43,58 @@ html, body{
     height: 20px;
     width: 22px;
 }
-header, footer{
-    background-color: rosybrown;
-}
+
 .rad_bg{
     margin: 2%;
     background-color: rgb(132,136,139);
     width: 40%;
+    
 }
- 
+
+.side_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+#text_des a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#contact{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin: 1%;
+}
+
+#copy_right{
+    font-size: 10px;
+    bottom: 0px;
+    text-align: center;
+    margin: 1%;
+}
+#fit_img{
+    float: right;
+   margin-right: 1.5%;
+}
+
+#view_more{
+    text-align: center;
+}
+#view_more a {
+    text-decoration: none;
+    color: black;
+}
+.list_map{
+    text-align: center;
+}
+.list_map a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+#map{
+   display: none;
+}

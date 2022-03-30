@@ -5,9 +5,36 @@ html, body{
     background-color: #e0e0e0;
   }
   #logo{
-        height: 60px;
-        width: 60px;
-    }
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+
+}
+#login1{
+    text-decoration: none;
+    float: right;
+    color: black;
+    margin: 2%;
+    margin-top: 1.5%;
+
+}
+header{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+
+}
+footer{
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+}
   #blu_hotel{
     height: 500px;
     width: 500px;
@@ -28,3 +55,21 @@ html, body{
     #hotel_dsc{
       margin: 1% 4% 2% 4%;
     }
+    #contact{
+      text-decoration: none;
+      color: black;
+      float: left;
+      margin: 1%;
+  }
+  
+  #copy_right{
+      font-size: 10px;
+      bottom: 0px;
+      text-align: center;
+      margin: 1%;
+  }
+  #fit_img{
+      float: right;
+     margin-right: 1.5%;
+  }
+  
