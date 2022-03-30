@@ -1,6 +1,9 @@
 html, body{
     height: 100vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
 }
 #logo{
     height: 60px;
@@ -9,8 +12,24 @@ html, body{
 .city_img{
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 .social_img{
     height: 20px;
     width: 22px;
+}
+header, footer{
+    background-color: rosybrown;
+}
+#bg_img{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;;
+    background-size: cover;
+}
+#column{
+    margin-left: 15%;
+    margin-right: 15%;
 }
