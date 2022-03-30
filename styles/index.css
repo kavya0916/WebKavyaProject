@@ -1,0 +1,16 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+.city_img{
+    height: 150px;
+    width: 150px;
+}
+.social_img{
+    height: 20px;
+    width: 22px;
+}
