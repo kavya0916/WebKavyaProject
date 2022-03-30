@@ -27,7 +27,7 @@ html, body{
     border-radius: 25%;
 }
 .social_img{
-    height: 20px;
+       height: 20px;
     width: 22px;
 }
 header{
@@ -46,6 +46,13 @@ footer{
     position: sticky;
     bottom: 0%;
     width: 100%;
+
+}
+.footer_tag{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
 #bg_img{
@@ -101,4 +108,11 @@ footer{
 #view_more a {
     text-decoration: none;
     color: black;
+}
+#naming{
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-left: 10%;
 }
