@@ -3,8 +3,8 @@ html, body{
     width: 100vw;
     margin: 0;
     padding: 0;
-    bottom: 0;
     background-color: #e0e0e0;
+    overflow-x: hidden;
 }
 #logo{
     height: 60px;
@@ -13,12 +13,11 @@ html, body{
 
 }
 #login1{
-    text-decoration: none;
     float: right;
+    text-decoration: none;
     color: black;
-    margin: 2%;
     margin-top: 1.5%;
-
+    margin-right: 2%;
 }
 .city_img{
     height: 150px;
@@ -27,32 +26,29 @@ html, body{
     border-radius: 25%;
 }
 .social_img{
-       height: 20px;
+    height: 20px;
     width: 22px;
 }
-header{
+
+#head{
     background-color: rosybrown;
-    margin: 0;
-    padding: 0;
     position: sticky;
-    top: 0%;
+    top: 0;
     width: 100%;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
 
 }
 footer{
     background-color: rosybrown;
-    margin: 0;
-    padding: 0;
     position: sticky;
     bottom: 0%;
     width: 100%;
-
-}
-.footer_tag{
+    height: 50px;
     display: flexbox;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
 }
 
 #bg_img{
@@ -77,42 +73,30 @@ footer{
     width: 400px;
     outline: none;
 }
- 
-}
-
 #column{
     margin-left: 15%;
     margin-right: 15%;
 }
 #contact{
+    float: left;
     text-decoration: none;
     color: black;
-    float: left;
-    margin: 1%;
+    margin-top: 1%;
 }
-
-#copy_right{
+#cop_r{
     font-size: 10px;
     bottom: 0px;
     text-align: center;
-    margin: 1%;
 }
 #fit_img{
     float: right;
-   margin-right: 1.5%;
+    margin-top: 1%;
+    
 }
-
 #view_more{
     text-align: center;
 }
 #view_more a {
     text-decoration: none;
     color: black;
-}
-#naming{
-    display: flexbox;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    margin-left: 10%;
 }
