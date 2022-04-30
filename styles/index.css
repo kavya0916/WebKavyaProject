@@ -10,6 +10,7 @@ html, body{
     height: 60px;
     width: 60px;
     vertical-align: middle;
+    margin-left: 1%;
 
 }
 #login1{
@@ -18,12 +19,20 @@ html, body{
     color: black;
     margin-top: 1.5%;
     margin-right: 2%;
+
 }
 .city_img{
     height: 150px;
     width: 150px;
-    padding: 4%;
+    /* padding: 4%; */
     border-radius: 25%;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;  
+    box-shadow: 10px 10px 10px grey; 
+  
+
+
 }
 .social_img{
     height: 20px;
@@ -60,9 +69,9 @@ footer{
     background-size: cover;
     margin: 0;
 
-    display: flex;
+     display: flex;
      justify-content: center; 
-    align-items: center;
+     align-items: center;
 }
 #bg_img > input {
     border: 1px solid transparent;
@@ -76,21 +85,28 @@ footer{
 #column{
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
 #contact{
     float: left;
     text-decoration: none;
     color: black;
     margin-top: 1%;
+    margin-left: 2%;
 }
 #cop_r{
     font-size: 10px;
-    bottom: 0px;
     text-align: center;
+    margin-bottom: 3%;
+    
 }
 #fit_img{
     float: right;
     margin-top: 1%;
+    margin-right: 2%;
     
 }
 #view_more{
@@ -100,3 +116,67 @@ footer{
     text-decoration: none;
     color: black;
 }
+#scrol{
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.overall{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+.container {
+    position: relative;
+    width: 25%;
+   
+   
+  }
+  
+  .image {
+    opacity: 1;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: flex;
+   
+  }
+  
+  .overlay {
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    opacity: 0;
+    transition: .3s ease;
+    
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+   
+  
+
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+    background-color:  rgba(0, 0, 0, 0.5);
+  }
+  
+  .text {
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
