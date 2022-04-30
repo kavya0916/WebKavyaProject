@@ -1,169 +1,179 @@
 html, body{
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    background-color: #e0e0e0;
-    overflow-x: hidden;
-  }
-  #logo{
-    height: 60px;
-    width: 60px;
-    vertical-align: middle;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #e0e0e0 !important;
+  overflow-x: hidden;
+}
+#logo{
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
 
 }
-#login1{
-    text-decoration: none;
-    float: right;
-    color: black;
-    margin: 2%;
-    margin-top: 1.5%;
+#login{
+  text-decoration: none;
+  float: right;
+  color: black;
+  margin: 2%;
+  margin-top: 1.5%;
 
 }
 
 header{
-  background-color: rosybrown;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  display: flexbox;
-  justify-content: space-between;
-  align-items: center;
+background-color: rosybrown;
+position: sticky;
+top: 0;
+width: 100%;
+display: flexbox;
+justify-content: space-between;
+align-items: center;
 
 
 }
 footer{
-  background-color: rosybrown;
-  position: sticky;
-  bottom: 0%;
-  width: 100%;
-  height: 50px;
-  display: flexbox;
-  justify-content: space-between;
-  align-items: center;
+background-color: rosybrown;
+position: sticky;
+bottom: 0%;
+width: 100%;
+height: 50px;
+display: flexbox;
+justify-content: space-between;
+align-items: center;
 }
-  #blu_hotel{
-    height: 350px;
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    size: 350px;
-   margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-
-   
-  }
-  .rad_img{
-    /* margin:2% 4% 2% 4%; */
-   display: flex;
+#blu_hotel{
+  height: 350px;
+  width: 500px;
+  display: flex;
   flex-wrap: wrap;
   size: 350px;
+ margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 10%;
+margin-right: 10%;
+
+ 
+}
+.rad_img{
+  /* margin:2% 4% 2% 4%; */
+ display: flex;
+flex-wrap: wrap;
+size: 350px;
 
 
+}
+#shrink{
+
+  border: 1px solid black ;
+  margin: 20px;
+  height: 400px;
+
+}
+.border1{
+  border-left: 1px solid  black;
+  height: 400px;
+
+  left: 60%;
+  bottom: 30%;
+  overflow: auto;
+}
+.mycontent-right{
+  border-left:  1px solid black ;
+}
+
+.img1{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+form{
+
+}
+.social_img{
+      height: 20px;
+      width: 22px;
   }
-  #shrink{
-  
-    border: 1px solid black;
-    margin: 20px;
-    
-
-
-  }
-  .border{
-    border-left: 1px solid black;
-    height: 400px;
-
-    left: 60%;
-    bottom: 30%;
-    overflow: auto;
+  header, footer{
+    background-color: rosybrown;
   }
 
-  .img1{
-    display: flex;
-    flex-wrap: wrap;
 
 
-  }
   form{
-  
+    margin: 0% 4% 1% 4%;
+    
   }
-  .social_img{
-        height: 20px;
-        width: 22px;
-    }
-    header, footer{
-      background-color: rosybrown;
-    }
-  
+ 
+  input{
+margin-left: 100px !important;
+width: 95% !important;
+padding: 5px !important;
+border: 1px solid #ccc !important;
+border-radius: 2px !important;
+resize: vertical !important;
 
 
-    form{
-      margin: 0% 4% 1% 4%;
-      
-    }
-   
-    input{
-  margin-left: 100px;
-  width: 95%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  resize: vertical;
-  
-  
 }
 #lef{
-  margin-left: 85px;
+margin-left: 75px !important;
+
 }
 input[type=submit] {
-  width: auto;
-  padding: 8px 20px;
-  border-radius: 4px;
-  margin-right: 50px;
+width: auto !important;
+padding: 8px 20px !important;
+border-radius: 4px !important;
+margin-right: 60px !important;
+margin-left: 70px !important;
+margin-top: 15px !important;
+border-color: green ;
+color: green;
 }
 input[type=submit]:hover {
-  background-color: lightgray;
+color: white;
+background-color: green;
+
 }
 
 .col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
+float: left !important;
+width: 25% !important;
+margin-top: 6px !important;
 }
 
 .col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
+float: left !important;
+width: 75%  !important; 
+margin-top: 6px !important;
 }
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "" !important;
+display: table !important;
+clear: both !important;
 }
-    }
   
-    #hotel_dsc{
-      margin: 1% 4% 2% 4%;
-    }
-    #contact{
-      text-decoration: none;
-      color: black;
-      float: left;
-      margin: 1%;
+  #hotel_dsc{
+    margin: 1% 4% 2% 4%;
   }
-  
-  #copy_right{
-      font-size: 10px;
-      text-align: center;
-      margin: 1%;
-      
-    margin-bottom: 3%;
+  #contact{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin: 1%;
+}
+
+#copy_right{
+    font-size: 10px;
+    text-align: center;
+    margin: 1%;
     
-  }
-  #fit_img{
-      float: right;
-     margin-right: 1.5%;
-  }
+  margin-bottom: 3%;
   
+}
+#fit_img{
+    float: right;
+   margin-right: 1.5%;
+}
+.modal-backdrop{
+  display: none;
+}

@@ -3,7 +3,7 @@ html, body{
     width: 100vw;
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0;
+    background-color: #e0e0e0 !important;
     overflow-x: hidden;
 }
 #logo{
@@ -13,7 +13,11 @@ html, body{
     margin-left: 1%;
 
 }
-#login1{
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
+#login{
     float: right;
     text-decoration: none;
     color: black;
@@ -39,7 +43,7 @@ html, body{
     width: 22px;
 }
 
-#head{
+#header{
     background-color: rosybrown;
     position: sticky;
     top: 0;
@@ -83,10 +87,9 @@ footer{
     outline: none;
 }
 #column{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-    flex-wrap: wrap;
     
 }
 
@@ -109,6 +112,8 @@ footer{
     margin-right: 2%;
     
 }
+
+
 #view_more{
     text-align: center;
 }
@@ -121,15 +126,11 @@ footer{
     justify-content: space-evenly;
     align-items: center;  
 }
-.overall{
-    display: inline-flex;
-    flex-wrap: wrap;
-    
-}
+
 .container {
     position: relative;
     width: 25%;
-   
+   margin: 40px !important;
    
   }
   
@@ -147,7 +148,7 @@ footer{
     position:absolute;
     top: 0px;
     bottom: 0px;
-    left: 0px;
+    left: 10px;
     right: 0px;
     height: 150px;
     width: 150px;

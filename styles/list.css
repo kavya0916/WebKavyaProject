@@ -2,7 +2,7 @@ html, body{
     height: 100vh;
     width: 100vw;
     margin: 0;
-    background-color: #e0e0e0;
+    background-color: #e0e0e0 !important;
     overflow-x: hidden;
 }
 #logo{
@@ -11,7 +11,11 @@ html, body{
     vertical-align: middle;
 
 }
-#login1{
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
+#login{
     text-decoration: none;
     float: right;
     color: black;
@@ -50,21 +54,26 @@ footer{
 }
 
 .rad_bg{
-    margin: 2%;
+    margin: 3%;
     background-color: lightgray;
     width: 40%;
     display: flex;
+    flex-wrap: wrap;
  
 }
-
-.side_img{
-  
-    display: flex;
-    flex-wrap: wrap;
+.rad_bg:hover{
+    background-color: rosybrown;
 }
+    
+.side_img{
+    display: flex;
+   }
 #text_des a{
     text-decoration: none;
     color: black;
+}
+#list_view{
+margin-bottom: 2%;
 }
 .lal_hotel{
     float: right;
@@ -77,7 +86,7 @@ footer{
     margin: 1%;
 }
 
-#copy_right{
+#cop_r{
     font-size: 10px;
     text-align: center;
     margin-bottom: 3%;
@@ -97,13 +106,14 @@ footer{
 }
 .list_map{
     text-align: center;
+    position: fixed;
+    justify-content: center;
+    margin-left: 550px;
+    border: none;
 }
 .list_map a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    padding: 20px;
+    
 }
-#map{
-   display: none;
-}
+

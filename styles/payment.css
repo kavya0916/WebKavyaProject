@@ -12,13 +12,16 @@ html, body{
     vertical-align: middle;
 
 }
-#login1{
+#login{
     text-decoration: none;
     float: right;
     color: black;
     margin: 2%;
     margin-top: 1.5%;
 
+}
+.modal-backdrop:{
+    display: none;
 }
 header{
     background-color: rosybrown;
@@ -42,7 +45,7 @@ footer{
     align-items: center;
 }
 #blu_hotel{
-    height: 300px;
+    height: 200px;
     width: 270px;
 }
 .social_img{
@@ -84,11 +87,13 @@ footer{
 #fit_img{
     float: right;
    margin-right: 1.5%;
+
 }
-#pay a{
+#pay{
     text-decoration: none;
     color: black;
     margin-left: 70px;
+
     }
 #space{
     margin: 2% 0% 2% 0%;
