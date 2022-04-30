@@ -57,11 +57,12 @@ margin-right: 10%;
 .rad_img{
   /* margin:2% 4% 2% 4%; */
  display: flex;
-flex-wrap: wrap;
-size: 350px;
 
+size: 350px;
+margin-left: 100px;
 
 }
+
 #shrink{
 
   border: 1px solid black ;
@@ -73,9 +74,10 @@ size: 350px;
   border-left: 1px solid  black;
   height: 400px;
 
-  left: 60%;
+  left: 70%;
   bottom: 30%;
   overflow: auto;
+  margin-left: 200px;
 }
 .mycontent-right{
   border-left:  1px solid black ;
